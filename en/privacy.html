@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F6F8FB" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111A26" media="(prefers-color-scheme: dark)">
+<title>Privacy Notice – Plainprint</title>
+<meta name="description" content="Privacy notice for the Windows app Plainprint: local printer connection, scanning, local storage, Microsoft Store.">
+<link rel="canonical" href="https://minh.systems/Plainprint/en/privacy.html">
+<link rel="alternate" hreflang="de" href="https://minh.systems/Plainprint/privacy.html">
+<link rel="alternate" hreflang="en" href="https://minh.systems/Plainprint/en/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://minh.systems/Plainprint/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Plainprint">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:title" content="Privacy Notice – Plainprint">
+<meta property="og:description" content="Privacy notice for the Windows app Plainprint: local printer connection, scanning, local storage, Microsoft Store.">
+<meta property="og:url" content="https://minh.systems/Plainprint/en/privacy.html">
+<meta property="og:image" content="https://minh.systems/Plainprint/img/logo.png">
+<meta property="og:image:width" content="310">
+<meta property="og:image:height" content="310">
+<meta property="og:image:alt" content="Plainprint">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Privacy Notice – Plainprint">
+<meta name="twitter:description" content="Privacy notice for the Windows app Plainprint: local printer connection, scanning, local storage, Microsoft Store.">
+<meta name="twitter:image" content="https://minh.systems/Plainprint/img/logo.png">
+<link rel="icon" href="../favicon.png">
+<link rel="apple-touch-icon" href="../img/logo.png">
+<link rel="stylesheet" href="../style.css?v=1">
+</head><body class="document-page"><a class="skip" href="#main">Skip to content</a>
+<header class="top"><nav aria-label="Navigation" class="wrap"><a class="brand" href="./"><img alt="" height="36" src="../img/logo.png" width="36"/><span>Plainprint<small>Print without drivers</small></span></a>
+<div class="links"><a href="./#funktionen">Features</a><a href="support.html">Help &amp; Support</a><a class="lang" href="../privacy.html" hreflang="de" lang="de" aria-label="Auf Deutsch wechseln">DE</a>
+</div></nav>
+</header>
+<main id="main">
+<div class="wrap doc">
+<div>
+<header class="doc-head"><h1>Privacy Notice</h1>
+<p>Last updated: 14 November 2026</p></header>
+<section class="card doc-section">
+<h2>Network, printer discovery and printing</h2>
+<p>Plainprint does not send usage telemetry or advertising/analytics events to Plainprint. Printer discovery, status checks, and printing use network connections to printers on your local network. This includes the IPP requests required by the printer and print files you select. Discovery sends local multicast/DNS-SD queries and, when needed, bounded IPP status requests on the local IPv4 network; discovery requests may be unencrypted before you select a printer. The app asks for consent before accepting an unencrypted printer connection (ipp:// or http://). Status data and later print contents sent over that connection have no transport encryption on the network. For ipps:// or https://, TLS certificate validation remains enabled; the app does not bypass certificate errors. The app can also open Windows printer settings and the selected printer's web page when you use those features.</p>
+</section>
+<section class="card doc-section">
+<h2>Support and local storage</h2>
+<p>The support feature opens your email app with a prepared message to mip@gmx.biz and selected general diagnostic codes. You choose whether to add details and send it. Printer addresses and settings are stored locally. The clearable local history contains up to 20 print operations, including file paths, page counts, settings, status and timestamps; for multiple photos it stores their paths. A separate local counter records confirmed print operations for the optional review link. Trial timestamps are stored locally. Clipboard images, shared files and print data may be processed in temporary local files; the app attempts to delete them; for clipboard images, shared files and newly generated print spools it also retries after a later restart. Unleased print spools left by older versions are not automatically deleted. Deletion is not a secure overwrite and may fail while files are locked.</p>
+</section>
+<section class="card doc-section">
+<h2>Scanning</h2>
+<p>Scanning uses eSCL (AirScan/Mopria Scan) to receive pages from the selected device over HTTP or HTTPS. Scanner detection currently tries unencrypted HTTP first; HTTP scan data has no transport encryption. Pages remain in app memory for preview and can be saved as PDF or JPG where you choose; you can cancel the save dialog. Plainprint does not upload scan contents to Plainprint.</p>
+</section>
+<section class="card doc-section">
+<h2>Statistics, pictures and crash note</h2>
+<p>The local statistics.json stores total pages and jobs, monthly page counts for up to 24 months with recorded activity, and the last print time for statistics and maintenance hints. Clearing print history does not clear these statistics. Device-provided printer pictures are cached locally in PrinterIcons. On an unhandled error, last-crash.txt may store a timestamp and exception details, potentially including file paths or device information. These statistics, cached pictures and crash notes are not sent automatically.</p>
+</section>
+<section class="card doc-section">
+<h2>Microsoft Store and other processing</h2>
+<p>If you obtain the app through Microsoft Store, it may communicate with Microsoft Store services to check trial and purchase entitlement. This is separate from the local printer connection. Microsoft handles Store and licensing data under its own privacy terms. Plainprint contains no ads and does not require a separate Plainprint account. Temporary local files may be created while printing. Windows, the Store, network components, and the printer may process diagnostic data under their own behavior; this notice does not control or make absolute promises about all processing on your device or network.</p>
+</section>
+<section class="card doc-section">
+<h2>Contact</h2>
+<p>Privacy contact: <a href="mailto:mip@gmx.biz">mip@gmx.biz</a>.</p>
+</section>
+</div>
+</div>
+</main>
+<footer class="wrap footer">
+<a href="./">Plainprint</a>·<a href="support.html">Support</a>·<a href="privacy.html">Privacy</a>·<a href="https://minh.systems/MinhNguyenStudios/impressum.html">Legal notice</a>
+<p>© 2026 Minh Nguyen Studios · Michel Nguyen</p>
+<p>No cookies, no trackers, no external scripts.</p>
+<p style="margin:16px 0 4px"><a href="https://minh.systems/MinhNguyenStudios/" aria-label="Minh Nguyen Studios" style="display:inline-block;line-height:0;border-radius:8px;overflow:hidden;opacity:.92"><picture><source srcset="../img/studio-dunkel.png" media="(prefers-color-scheme: dark)"><img src="../img/studio-hell.png" width="200" height="47" alt="Minh Nguyen Studios" loading="lazy" style="width:200px;height:auto"></picture></a></p></footer>
+</body>
+</html>

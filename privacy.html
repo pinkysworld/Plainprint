@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F6F8FB" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111A26" media="(prefers-color-scheme: dark)">
+<title>Datenschutzerklärung – Plainprint</title>
+<meta name="description" content="Datenschutzerklärung der Windows-App Plainprint: lokale Druckerverbindung, Scannen, lokale Speicherung, Microsoft Store.">
+<link rel="canonical" href="https://minh.systems/Plainprint/privacy.html">
+<link rel="alternate" hreflang="de" href="https://minh.systems/Plainprint/privacy.html">
+<link rel="alternate" hreflang="en" href="https://minh.systems/Plainprint/en/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://minh.systems/Plainprint/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Plainprint">
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="Datenschutzerklärung – Plainprint">
+<meta property="og:description" content="Datenschutzerklärung der Windows-App Plainprint: lokale Druckerverbindung, Scannen, lokale Speicherung, Microsoft Store.">
+<meta property="og:url" content="https://minh.systems/Plainprint/privacy.html">
+<meta property="og:image" content="https://minh.systems/Plainprint/img/logo.png">
+<meta property="og:image:width" content="310">
+<meta property="og:image:height" content="310">
+<meta property="og:image:alt" content="Plainprint">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Datenschutzerklärung – Plainprint">
+<meta name="twitter:description" content="Datenschutzerklärung der Windows-App Plainprint: lokale Druckerverbindung, Scannen, lokale Speicherung, Microsoft Store.">
+<meta name="twitter:image" content="https://minh.systems/Plainprint/img/logo.png">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="stylesheet" href="style.css?v=1">
+</head><body class="document-page"><a class="skip" href="#main">Zum Inhalt</a>
+<header class="top"><nav aria-label="Navigation" class="wrap"><a class="brand" href="./"><img alt="" height="36" src="img/logo.png" width="36"/><span>Plainprint<small>Drucken ohne Treiber</small></span></a>
+<div class="links"><a href="./#funktionen">Funktionen</a><a href="support.html">Hilfe &amp; Support</a><a class="lang" href="en/privacy.html" hreflang="en" lang="en" aria-label="Switch to English">EN</a>
+</div></nav>
+</header>
+<main id="main">
+<div class="wrap doc">
+<div>
+<header class="doc-head"><h1>Datenschutzerklärung</h1>
+<p>Stand: 14. November 2026</p></header>
+<section class="card doc-section">
+<h2>Netzwerk, Druckersuche und Druck</h2>
+<p>Plainprint sendet keine Nutzungs-Telemetrie oder Werbe-/Analyseereignisse an Plainprint. Für Druckersuche, Statusabfrage und Druck werden Netzwerkverbindungen zum Drucker in Ihrem lokalen Netzwerk verwendet. Dabei werden die vom Drucker benötigten IPP-Anfragen und von Ihnen ausgewählten Druckdateien übertragen. Bei der Druckersuche werden lokale Multicast-/DNS-SD-Anfragen und gegebenenfalls begrenzte IPP-Statusabfragen im lokalen IPv4-Netz gesendet; solche Suchabfragen können bereits vor der Auswahl eines Druckers unverschlüsselt erfolgen. Vor der Übernahme einer unverschlüsselten Verbindung (ipp:// oder http://) fragt die App nach Ihrer Zustimmung. Über diese Verbindung sind Statusdaten und später gesendete Druckinhalte im Netzwerk nicht transportverschlüsselt. Für ipps:// oder https:// wird TLS mit Zertifikatsprüfung verwendet; die App umgeht keine Zertifikatsfehler. Die App kann außerdem die Windows-Druckereinstellungen und die Webseite des ausgewählten Druckers öffnen, wenn Sie diese Funktionen verwenden.</p>
+</section>
+<section class="card doc-section">
+<h2>Support und lokale Speicherung</h2>
+<p>Die Supportfunktion öffnet Ihr E-Mail-Programm mit einer vorbereiteten Nachricht an mip@gmx.biz und ausgewählten allgemeinen Diagnosecodes. Sie entscheiden selbst, ob Sie sie ergänzen und senden. Druckeradressen und Einstellungen werden lokal gespeichert. Der löschbare lokale Verlauf enthält bis zu 20 Druckvorgänge einschließlich Dateipfaden, Seitenzahl, Einstellungen, Status und Zeitpunkt; bei mehreren Fotos werden deren Pfade gespeichert. Ein separater lokaler Zähler erfasst bestätigte Druckvorgänge für den freiwilligen Bewertungslink. Zeitpunkte der Testphase werden lokal gespeichert. Zwischenablagebilder, geteilte Dateien und Druckdaten können vorübergehend lokal verarbeitet werden; die App versucht, diese temporären Dateien zu löschen; für Zwischenablage, geteilte Dateien und neu erzeugte Druckspools auch nach einem späteren Neustart. Bereits von älteren Versionen hinterlassene Druckspools ohne zugehörige Sperrdatei werden nicht automatisch gelöscht. Die Löschung ist keine sichere Überschreibung und kann bei gesperrten Dateien scheitern.</p>
+</section>
+<section class="card doc-section">
+<h2>Scannen</h2>
+<p>Beim Scannen werden Seiten über eSCL (AirScan/Mopria Scan) per HTTP oder HTTPS vom ausgewählten Gerät empfangen. Die Scannererkennung versucht derzeit zuerst unverschlüsseltes HTTP; HTTP-Scandaten sind nicht transportverschlüsselt. Seiten bleiben für die Vorschau im Arbeitsspeicher der App und können als PDF oder JPG an einem von Ihnen gewählten Ort gespeichert werden; Sie können den Speicherdialog abbrechen. Plainprint lädt Scaninhalte nicht zu Plainprint hoch.</p>
+</section>
+<section class="card doc-section">
+<h2>Statistik, Bilder und Fehlerdatei</h2>
+<p>Die lokale statistics.json speichert Gesamtseiten und Druckaufträge, monatliche Seitenzahlen für bis zu 24 Monate mit erfasster Aktivität sowie den letzten Druckzeitpunkt für Statistiken und Wartungshinweise. Das Löschen des Druckverlaufs löscht diese Statistiken nicht. Vom Gerät bereitgestellte Druckerbilder werden lokal in PrinterIcons zwischengespeichert. Bei einem unbehandelten Fehler kann last-crash.txt einen Zeitstempel und Ausnahmedetails speichern, möglicherweise einschließlich Dateipfaden oder Geräteinformationen. Diese Statistiken, zwischengespeicherten Bilder und Fehlernotizen werden nicht automatisch versendet.</p>
+</section>
+<section class="card doc-section">
+<h2>Microsoft Store und Weiteres</h2>
+<p>Wenn Sie die App über den Microsoft Store beziehen, kann die App zur Prüfung von Testphase und Kaufberechtigung mit Microsoft-Store-Diensten kommunizieren. Das ist von der lokalen Druckerverbindung getrennt. Microsoft verarbeitet Store- und Lizenzdaten nach den eigenen Datenschutzbestimmungen. Plainprint enthält keine Werbung und verlangt kein separates Plainprint-Konto. Temporäre lokale Dateien können während der Druckverarbeitung entstehen. Windows, der Store, Netzwerkkomponenten und der Drucker können eigene Diagnosedaten verarbeiten; diese Vorgänge liegen außerhalb der Kontrolle dieser Erklärung. Es werden keine absoluten Aussagen zur gesamten Datenverarbeitung Ihres Geräts oder Netzwerks getroffen.</p>
+</section>
+<section class="card doc-section">
+<h2>Kontakt</h2>
+<p>Kontakt für Datenschutzanfragen: <a href="mailto:mip@gmx.biz">mip@gmx.biz</a>.</p>
+</section>
+</div>
+</div>
+</main>
+<footer class="wrap footer">
+<a href="./">Plainprint</a>·<a href="support.html">Support</a>·<a href="privacy.html">Datenschutz</a>·<a href="https://minh.systems/MinhNguyenStudios/impressum.html">Impressum</a>
+<p>© 2026 Minh Nguyen Studios · Michel Nguyen</p>
+<p>Keine Cookies, keine Tracker, keine externen Skripte.</p>
+<p style="margin:16px 0 4px"><a href="https://minh.systems/MinhNguyenStudios/" aria-label="Minh Nguyen Studios" style="display:inline-block;line-height:0;border-radius:8px;overflow:hidden;opacity:.92"><picture><source srcset="img/studio-dunkel.png" media="(prefers-color-scheme: dark)"><img src="img/studio-hell.png" width="200" height="47" alt="Minh Nguyen Studios" loading="lazy" style="width:200px;height:auto"></picture></a></p></footer>
+</body>
+</html>
